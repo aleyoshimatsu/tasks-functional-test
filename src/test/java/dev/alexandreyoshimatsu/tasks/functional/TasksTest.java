@@ -14,8 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 public class TasksTest {
 
-    private static final String URL_SELENIUM_GRID = "http://192.168.1.107:4444/wd/hub";
-    private static final String URL_APP = "http://192.168.1.107:8001/tasks";
+    private static final String URL_SELENIUM_GRID = "http://192.168.15.6:4444/wd/hub";
+    private static final String URL_APP = "http://192.168.15.6:8001/tasks";
 
     private WebDriver acessarAplicacao() throws MalformedURLException {
 //		WebDriver driver = new ChromeDriver();
